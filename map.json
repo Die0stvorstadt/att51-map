@@ -12,6 +12,40 @@
  "layers":[
         {
          "compression":"zstd",
+         "data":"KLUv\/WBQJw0BAFAAAO4AAAAgAQAKByDA8xxV8aFKYQVY\/7fFBifVHFavsQ==",
+         "encoding":"base64",
+         "height":30,
+         "id":8,
+         "name":"start",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":86,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"zstd",
+         "data":"KLUv\/WBQJ70CAPAAAD4BPgE+AT4BPgE+AT4BPgE+AT4BPgE+AT4BPgEdqPCCDyCDDxD+\/\/8nhs8atZm14Vk2PGvDszY0a8OzNjRrw7NsaMaGZmx41oZnbWjWhmfdtKRQAw==",
+         "encoding":"base64",
+         "height":30,
+         "id":9,
+         "name":"meet",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"Laberraum"
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":86,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"zstd",
          "data":"KLUv\/WBQJ+UGAGQDAAArARYrARYBGQAAABoAAAAbAAAAHBYpAAAAKgAAACwAGCAWGCsrKCsdASsgLCArLCgsASwBUqBQtUUP8AIEJpQBQRrb2pb23v88jTrVFhWITKjqreOC8urbeHmLqBMOw\/JHU3lmsthVC1RrXIUurUFtC6vs6RRNSJU0QBpzdA52gkWgVJt6jS2VaMIwQ7rrGiMlZyxL4O4KOiypy0QNViGFGIN6kXfkFqQeTBkwQ9okIirz\/wlOTx1xDC781GPrAqx\/hM8rn1zG6uyQdguJmUMHclB5e2+USgE=",
          "encoding":"base64",
          "height":30,
@@ -21,6 +55,17 @@
          "type":"tilelayer",
          "visible":true,
          "width":86,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":6,
+         "name":"floorLayer",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -52,7 +97,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":6,
+ "nextlayerid":10,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
@@ -60,8 +105,17 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":16,
          "firstgid":1,
-         "source":"..\/wa\/tilesets_deviant_milkian_1.json"
+         "image":"..\/wa\/tilesets_deviant_milkian_1.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"tilesets_deviant_milkian_1",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
          "firstgid":257,
